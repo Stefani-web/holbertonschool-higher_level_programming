@@ -1,7 +1,4 @@
 #!/usr/bin/python3
-# Boucle sur les valeurs ASCII des caractères de 'a' à 'z'
-for i in range(ord('a'), ord('z')+1):
-    # Vérifie si le caractère correspondant n'est pas 'q' ou 'e'
-    if chr(i) not in 'qe':
-        # Imprime le caractère sans saut de ligne
-        print(chr(i), end='')
+for i in range(97, 123): # Loop over ASCII values for lowercase letters (97 to 122)
+    if (i != 101) and (i != 113): # Check if the character is not 'e' (ASCII 101) and not 'q' (ASCII 113)
+        print("{:s}".format(chr(i)), end="")
