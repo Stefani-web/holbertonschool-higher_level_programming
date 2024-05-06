@@ -25,7 +25,7 @@ Python Scripts:
 
 ```
 
-## ➤ Links
+## ➤ Repositories Project
 
 - [python-hello_world](https://github.com/Stefani-web/holbertonschool-higher_level_programming/tree/main/python-hello_world)
 
