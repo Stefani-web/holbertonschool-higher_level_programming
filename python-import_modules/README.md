@@ -9,11 +9,11 @@ The **"python-import_modules"** project aims to explore and demonstrate the diff
 
 <p>
 
-**Python developers** of all levels who want to improve their understanding of importing modules in Python and learn best practices for organizing and importing modules into their projects.
+**Python developers** of all levels who want to improve their understanding of importing modules in **Python** and learn best practices for organizing and importing modules into their projects.
 
-The **"python-import_modules"** project aims to provide a comprehensive and accessible resource on the different techniques for importing modules in Python, as well as practical tips for effective and correct use of modules in Python projects. </p>
+The **"python-import_modules"** project aims to provide a comprehensive and accessible resource on the different techniques for importing modules in **Python**, as well as practical tips for effective and correct use of modules in **Python** projects. </p>
 
-**Objectives:** Exploring different import methods: The project explores the different ways of importing modules in Python, including importing entire modules, specific attributes, import aliasing, etc. Using Import Directives: It covers the use of import directives such as import, from **... import**, **import ...** as, etc., and explains their advantages and limitations. Handling import paths: The project also looks at handling custom import paths using environment variables like **PYTHONPATH**, adding paths to the sys.path, or using __init__.py files. Conditional Import: It also discusses conditional import of modules based on the Python version or installed dependencies. Recommended Practices: The project highlights best practices for importing modules, including organizing modules into packages, using __all__ to control what is imported, and more.
+**Objectives:** Exploring different import methods: The project explores the different ways of importing modules in **Python**, including importing entire modules, specific attributes, import aliasing, etc. Using Import Directives: It covers the use of import directives such as import, from **... import**, **import ...** as, etc., and explains their advantages and limitations. Handling import paths: The project also looks at handling custom import paths using environment variables like **PYTHONPATH**, adding paths to the sys.path, or using __init__.py files. **Conditional Import:** It also discusses conditional import of modules based on the Python version or installed dependencies. Recommended Practices: The project highlights best practices for importing modules, including organizing modules into packages, using __all__ to control what is imported, and more.
 
 **Expected Deliveries:**
 
