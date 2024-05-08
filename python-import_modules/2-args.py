@@ -8,7 +8,6 @@ if __name__ == "__main__":
     # Print the number of arguments
     if num_args - 1 == 0:
         print("{} arguments.\n".format(num_args - 1), end="")
-    elif num_args - 1 == 1:
         print("{} argument:\n".format(num_args - 1), end="")
     else:
         print("{} arguments:\n".format(num_args - 1), end="")
