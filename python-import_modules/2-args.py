@@ -3,7 +3,7 @@ if __name__ == "__main__":
     from sys import argv
 
     # Get the number of arguments
-    num_args = len(argv) - 1 # Subtract 1 to exclude the script name
+    num_args = len(argv)
 
     # Print the number of arguments
     if num_args - 1 == 0:
