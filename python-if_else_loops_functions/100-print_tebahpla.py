@@ -1,2 +1,7 @@
 #!/usr/bin/python3
-print("".join(chr(122 - i) if i % 2 == 0 else chr(90 - i) for i in range(26)))
+
+for index in reversed(range(97, 123)):
+    if (index % 2 == 0):
+        print('{:c}'.format(index), end='')
+    else:
+        print('{:c}'.format(index - 32), end='')
