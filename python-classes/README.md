@@ -1,7 +1,7 @@
 # <p align="center">Python - Classes and Objects</p>
 
 <p align="center">
-<img src="https://cdn.discordapp.com/attachments/1217825406699180052/1239679675211583528/python_exception.jpg?ex=6643cd2a&is=66427baa&hm=0e209f154030d82dd414f39ac5b0cbf9afeb4f08cb1ab3ad82e6d196cd254cd9&"  alt="Python - Classes and Objects"/> </p>
+<img src="https://cdn.discordapp.com/attachments/1217825406699180052/1239693630738796685/python_classe.jpg?ex=6643da29&is=664288a9&hm=dae6a00fbab372e2bdbe37c6420066631bccec69ed1a0c979a64f1262dfd3671&"  alt="Python - Classes and Objects"/> </p>
 
 <p>
 
