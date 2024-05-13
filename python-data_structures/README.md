@@ -4,10 +4,14 @@
 <img src="https://cdn.discordapp.com/attachments/1212359396739252225/1239510157315018753/PYTHON_DATA_STRUCTURES_Lists_et_Tuples.jpg?ex=66432f4a&is=6641ddca&hm=7fe52bf0a22d9c7cb268c39ca9c285375c210f0d89fc519743816d2affb39dd1&"  alt="Python - Lists, Tuples"/> </p>
 
 <p align="center">
-The “Python - Data Structures: Lists, Tuples” project is a learning exercise that focuses on understanding and using lists and tuples in Python. Here is a general description of the project:
+The “Python - Data Structures: Lists, Tuples” project is a learning exercise that focuses on understanding and using lists and tuples in Python. Here is a general description of the project:</p>
+
+<p align="center">
 
 **Learning objectives:**
+</p>
 
+<p align="center">
 Understand why Python programming is popular.
 Know what **lists** and **tuples** are and how to use them.
 Know the differences and similarities between strings and **lists**.
@@ -33,7 +37,7 @@ Python Scripts:
 - Files must end with a new line and the first line must be exactly #!/usr/bin/python3.
 - The code must follow the PEP 8 style (pycodestyle version 2.7.*).
 - All files must be executable and file length will be tested with wc.
-- Prototypes for all functions must be included in a header file called lists.h, which must be protected against multiple inclusions.
+- (Prototypes for all functions must be included in a header file called lists.h, which must be protected against multiple inclusions).
 
 ```
 
