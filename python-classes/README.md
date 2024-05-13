@@ -49,10 +49,10 @@ IN PROGRESS
 
 ## ➤ LICENSE
 
-Distributed under the MIT License. See [LICENSE](https://github.com/Stefani-web/holbertonschool-higher_level_programming/blob/main/python-more_data_structures/LICENSE) for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/Stefani-web/holbertonschool-higher_level_programming/blob/main/python-classes/LICENSE) for more information.
 
 Copyright (c) 2024 Stephanie CARVALHO
 
-## ➤ [AUTHORS](https://github.com/Stefani-web/holbertonschool-higher_level_programming/blob/main/python-more_data_structures/AUTHORS)
+## ➤ [AUTHORS](https://github.com/Stefani-web/holbertonschool-higher_level_programming/blob/main/python-classes/AUTHORS)
 
 * [Stephanie Carvalho](https://github.com/Stefani-web)
