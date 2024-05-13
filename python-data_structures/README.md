@@ -25,6 +25,12 @@ Learn to use the **del** statement.
 <img src="https://cdn-images.threadless.com/threadless-media/artist_shops/shops/realpython/profile/logo-1613591159-afae41b42c1708f4675432b0af9e0f8e.png?v=3&d=eyJvcHMiOiBbWyJyZXNpemUiLCBbMzUwXSwge31dXSwgImZvcmNlIjogZmFsc2UsICJvbmx5X21ldGEiOiBmYWxzZX0=" alt="Logo Python"/>
 </p>
 
+<p>
+
+The project includes several practical tasks, such as writing **functions** to print **lists of integers**, retrieving elements at a given **index**, replacing elements in a **list**, and more. These tasks help reinforce the understanding of **data structures** in **Python** and practice programming without the help of **external modules**.
+
+For more detailed information, you can check out the official **Python** documentation on **data **structures** or educational resources like **Real Python** </p>
+
 ## ➤ INSTALLATION INSTRUCTIONS
 
 ```
