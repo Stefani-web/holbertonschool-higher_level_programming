@@ -36,6 +36,8 @@ Python Scripts:
 - [python-import_modules](https://github.com/Stefani-web/holbertonschool-higher_level_programming/tree/main/python-import_modules)
 - [python-data_structures](https://github.com/Stefani-web/holbertonschool-higher_level_programming/tree/main/python-data_structures)
 - [python-more_data_structures](https://github.com/Stefani-web/holbertonschool-higher_level_programming/tree/main/python-more_data_structures)
+- [python-exceptions](https://github.com/Stefani-web/holbertonschool-higher_level_programming/tree/main/python-exceptions)
+- [python-classes](https://github.com/Stefani-web/holbertonschool-higher_level_programming/tree/main/python-classes)
 
 ## ➤ LICENSE
 
