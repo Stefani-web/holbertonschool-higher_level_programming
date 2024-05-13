@@ -1,7 +1,7 @@
 # <p align="center">holbertonschool-higher_level_programming</p>
 
 <p align="center">
-<img src="https://www.actuia.com/wp-content/uploads/2022/01/logopython.png"  alt="Python"/> </p>
+<img src="https://cdn.discordapp.com/attachments/1217825406699180052/1239678028523765930/python_readme.jpg?ex=6643cba2&is=66427a22&hm=d4a2f31f83286f4b7cd3244c9e1e74892a3fcaf8d41b6bf79394dc863038fb41&"  alt="Python"/> </p>
 
 <p align="center">
 Python is an interpreted, object-oriented, multi-paradigm programming language created by Guido van Rossum and released in 1991. It is designed to be easy to read and write, with a clear and simple syntax that emphasizes code readability.</p>
@@ -34,6 +34,8 @@ Python Scripts:
 - [python-hello_world](https://github.com/Stefani-web/holbertonschool-higher_level_programming/tree/main/python-hello_world)
 - [python-if_else_loops_functions](https://github.com/Stefani-web/holbertonschool-higher_level_programming/tree/main/python-if_else_loops_functions)
 - [python-import_modules](https://github.com/Stefani-web/holbertonschool-higher_level_programming/tree/main/python-import_modules)
+- [python-data_structures](https://github.com/Stefani-web/holbertonschool-higher_level_programming/tree/main/python-data_structures)
+- [python-more_data_structures](https://github.com/Stefani-web/holbertonschool-higher_level_programming/tree/main/python-more_data_structures)
 
 ## ➤ LICENSE
 
