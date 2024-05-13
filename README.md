@@ -12,6 +12,10 @@ Python is widely used in many fields, such as web development, data science, mac
 <p align="center">
 Python is also a popular programming language for beginners because it is easy to learn and use, while still being powerful enough to create complex applications. It is often used in teaching programming because it allows students to focus on the fundamental concepts of programming rather than the details of teaching programming. 🚀 </p>
 
+<p align="center">
+<img src="https://cdn-images.threadless.com/threadless-media/artist_shops/shops/realpython/profile/logo-1613591159-afae41b42c1708f4675432b0af9e0f8e.png?v=3&d=eyJvcHMiOiBbWyJyZXNpemUiLCBbMzUwXSwge31dXSwgImZvcmNlIjogZmFsc2UsICJvbmx5X21ldGEiOiBmYWxzZX0=" alt="Logo Python"/>
+</p>
+
 ## ➤ INSTALLATION INSTRUCTIONS
 
 ```
