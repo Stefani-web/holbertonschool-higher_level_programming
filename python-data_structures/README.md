@@ -3,15 +3,12 @@
 <p align="center">
 <img src="https://cdn.discordapp.com/attachments/1212359396739252225/1239510157315018753/PYTHON_DATA_STRUCTURES_Lists_et_Tuples.jpg?ex=66432f4a&is=6641ddca&hm=7fe52bf0a22d9c7cb268c39ca9c285375c210f0d89fc519743816d2affb39dd1&"  alt="Python - Lists, Tuples"/> </p>
 
-<p align="center">
-The “Python - Data Structures: Lists, Tuples” project is a learning exercise that focuses on understanding and using lists and tuples in Python. Here is a general description of the project:</p>
+<p>
 
-<p align="center">
+The “Python - Data Structures: Lists, Tuples” project is a learning exercise that focuses on understanding and using **lists** and **tuples** in Python. Here is a general description of the project:
 
 **Learning objectives:**
-</p>
 
-<p align="center">
 Understand why Python programming is popular.
 Know what **lists** and **tuples** are and how to use them.
 Know the differences and similarities between strings and **lists**.
@@ -21,8 +18,8 @@ Learn about **list** comprehensions and their use.
 Understand when to use **tuples versus lists**.
 Know what a sequence is, “**tuple** packing” and “sequence unpacking”.
 Learn to use the **del** statement.
+
 </p>
-<p align="center">
 
 <p align="center">
 <img src="https://cdn-images.threadless.com/threadless-media/artist_shops/shops/realpython/profile/logo-1613591159-afae41b42c1708f4675432b0af9e0f8e.png?v=3&d=eyJvcHMiOiBbWyJyZXNpemUiLCBbMzUwXSwge31dXSwgImZvcmNlIjogZmFsc2UsICJvbmx5X21ldGEiOiBmYWxzZX0=" alt="Logo Python"/>
