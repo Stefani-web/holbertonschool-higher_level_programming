@@ -69,7 +69,7 @@ Calculate the area of the square:
 print(square_custom.area())  # Output: 49
 
 ```
-Classe Square:
+Class Square:
 ```
 class Square:
     """A class that defines a square."""
