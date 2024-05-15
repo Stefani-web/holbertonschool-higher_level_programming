@@ -46,7 +46,7 @@ IN PROGRESS
 - [Learn to Program 9 : Object Oriented Programming](https://www.youtube.com/watch?v=1AGyBuVCTeE&ab_channel=DerekBanas)
 - [Python Classes and Objects](https://www.youtube.com/watch?v=apACNr7DC_s&ab_channel=Socratica)
 - [Object Oriented Programming](https://www.youtube.com/watch?v=-DP1i2ZU9gk&ab_channel=MITOpenCourseWare)
-- [Classes et attributs (French)](https://www.youtube.com/watch?v=91dPooHyNIo&ab_channel=FormationVid%C3%A9o)
+- [Classes and Attributes (French)](https://www.youtube.com/watch?v=91dPooHyNIo&ab_channel=FormationVid%C3%A9o)
 - [Classes (French)](https://www.youtube.com/watch?v=KwglfT76iv8&ab_channel=SimpleTech)
 
 ## ➤ LICENSE
