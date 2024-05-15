@@ -1,7 +1,7 @@
 # <p align="center">Python - Exceptions</p>
 
 <p align="center">
-<img src="https://cdn.discordapp.com/attachments/1217825406699180052/1239679675211583528/python_exception.jpg?ex=6643cd2a&is=66427baa&hm=0e209f154030d82dd414f39ac5b0cbf9afeb4f08cb1ab3ad82e6d196cd254cd9&"  alt="Python - Exceptions"/> </p>
+<img src="https://cdn.discordapp.com/attachments/1217825406699180052/1240391008764825681/pyhton_exceptions.jpg?ex=664663a5&is=66451225&hm=9462c37ed3213ea1b76e8d49fe9a28d2929f7d42f7f082c2642e12bc5f3bccb7&"  alt="Python - Exceptions"/> </p>
 
 <p>
 
@@ -34,8 +34,69 @@ Python Scripts:
 ```
 
 ## ➤ EXAMPLES
+
+1. Type Error Handling
 ```
-IN PROGRESS
+try:
+    x = int(input("Entrez un nombre : "))
+    print("Le carré de", x, "est", x ** 2)
+except ValueError:
+    print("Erreur : Veuillez entrer un nombre valide.")
+
+```
+2. Handling Division by Zero Errors
+```
+try:
+    num = int(input("Entrez un numérateur : "))
+    denom = int(input("Entrez un dénominateur : "))
+    result = num / denom
+    print("Résultat de la division :", result)
+except ZeroDivisionError:
+    print("Erreur : Division par zéro non autorisée.")
+except ValueError:
+    print("Erreur : Veuillez entrer des nombres valides.")
+
+```
+3. Using the finally Statement
+```
+try:
+    file = open("exemple.txt", "r")
+    for line in file:
+        print(line.strip())
+except FileNotFoundError:
+    print("Erreur : Fichier introuvable.")
+finally:
+    file.close()  # Fermeture du fichier même en cas d'erreur
+
+```
+4. Custom Error Handling with Custom Exceptions
+```
+class BalanceInsuffisanteError(Exception):
+    """Exception levée lorsque le solde est insuffisant pour effectuer une opération."""
+
+    def __init__(self, message="Solde insuffisant."):
+        self.message = message
+        super().__init__(self.message)
+
+class CompteBancaire:
+    """Une classe représentant un compte bancaire."""
+
+    def __init__(self, solde=0):
+        self.solde = solde
+
+    def retirer(self, montant):
+        if montant > self.solde:
+            raise BalanceInsuffisanteError
+        self.solde -= montant
+        print("Retrait de", montant, "effectué avec succès.")
+
+# Utilisation de l'exception personnalisée
+try:
+    compte = CompteBancaire(100)
+    compte.retirer(150)
+except BalanceInsuffisanteError as e:
+    print(e)  # Affiche : Solde insuffisant.
+
 ```
 
 ## ➤ TUTORIALS
