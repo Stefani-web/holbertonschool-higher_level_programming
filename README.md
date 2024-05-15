@@ -1,7 +1,7 @@
 # <p align="center">holbertonschool-higher_level_programming</p>
 
 <p align="center">
-<img src="https://cdn.discordapp.com/attachments/1217825406699180052/1239678028523765930/python_readme.jpg?ex=6643cba2&is=66427a22&hm=d4a2f31f83286f4b7cd3244c9e1e74892a3fcaf8d41b6bf79394dc863038fb41&"  alt="Python"/> </p>
+<img src="https://cdn.discordapp.com/attachments/1217825406699180052/1240390914707292191/python.jpg?ex=6646638f&is=6645120f&hm=1725661df6115aec8079d486def981dca9fbc35de679be5433e56b48e3c711b8&"  alt="Python"/> </p>
 
 <p align="center">
 Python is an interpreted, object-oriented, multi-paradigm programming language created by Guido van Rossum and released in 1991. It is designed to be easy to read and write, with a clear and simple syntax that emphasizes code readability.</p>
