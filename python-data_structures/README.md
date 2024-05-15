@@ -1,7 +1,7 @@
 # <p align="center">Python - Data Structures: Lists, Tuples</p>
 
 <p align="center">
-<img src="https://cdn.discordapp.com/attachments/1212359396739252225/1239510157315018753/PYTHON_DATA_STRUCTURES_Lists_et_Tuples.jpg?ex=66432f4a&is=6641ddca&hm=7fe52bf0a22d9c7cb268c39ca9c285375c210f0d89fc519743816d2affb39dd1&"  alt="Python - Lists, Tuples"/> </p>
+<img src="https://cdn.discordapp.com/attachments/1217825406699180052/1240390914925531236/pyhton_Data_struc.jpg?ex=6646638f&is=6645120f&hm=f3e4e655af05f4e7ac6341bc5d9680f6e329093e6f9b54b9e3b22b8418a4b9c0&"  alt="Python - Lists, Tuples"/> </p>
 
 <p>
 
@@ -45,9 +45,88 @@ Python Scripts:
 ```
 
 ## ➤ EXAMPLES
+
+**1. Using Lists**
+
+**a.** Creating and Manipulating a List
 ```
-IN PROGRESS
+# Création d'une liste
+my_list = [1, 2, 3, 4, 5]
+
+# Accès aux éléments d'une liste
+print(my_list[0])  # Output: 1
+
+# Modification d'un élément dans une liste
+my_list[2] = 10
+
+# Ajout d'un élément à la fin de la liste
+my_list.append(6)
+
+# Suppression d'un élément de la liste
+my_list.remove(4)
+
+# Parcours des éléments d'une liste
+for item in my_list:
+    print(item)
+
 ```
+**b.** List Operations
+```# Concaténation de listes
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+concatenated_list = list1 + list2
+
+# Extraction d'une sous-liste (slicing)
+sub_list = concatenated_list[2:5]
+
+# Recherche d'un élément dans une liste
+if 3 in concatenated_list:
+    print("3 est présent dans la liste.")
+
+# Tri d'une liste
+sorted_list = sorted(concatenated_list)
+
+# Inversion d'une liste
+reversed_list = list(reversed(concatenated_list))
+
+```
+**2. Using Tuples**
+
+**a.** Creation and Access to Elements of a Tuple
+```
+# Création d'un tuple
+my_tuple = (1, 2, 3, 4, 5)
+
+# Accès aux éléments d'un tuple
+print(my_tuple[0])  # Output: 1
+
+# Parcours des éléments d'un tuple
+for item in my_tuple:
+    print(item)
+
+```
+**b.** Operations on Tuples
+```
+# Concaténation de tuples
+tuple1 = (1, 2, 3)
+tuple2 = (4, 5, 6)
+concatenated_tuple = tuple1 + tuple2
+
+# Extraction d'une sous-tuple (slicing)
+sub_tuple = concatenated_tuple[2:5]
+
+# Recherche d'un élément dans un tuple
+if 3 in concatenated_tuple:
+    print("3 est présent dans le tuple.")
+
+```
+**3. Differences between Lists and Tuples**
+<p> Lists and tuples are similar, but have a few important differences:
+
+Lists are mutable, meaning they can be modified after they are created. On the other hand, tuples are immutable.
+Lists are typically used for collections of items that can be changed or reordered, while tuples are often used for collections of items that do not change.
+Conclusion
+Lists and tuples are important data structures in Python, each with their own benefits and use cases. By understanding how to use these data structures effectively, you can write cleaner, more efficient Python code.</p>
 
 ## ➤ TUTORIALS
 
