@@ -1,7 +1,7 @@
 # <p align="center">Python - Classes and Objects</p>
 
 <p align="center">
-<img src="https://cdn.discordapp.com/attachments/1217825406699180052/1239693630738796685/python_classe.jpg?ex=6643da29&is=664288a9&hm=dae6a00fbab372e2bdbe37c6420066631bccec69ed1a0c979a64f1262dfd3671&"  alt="Python - Classes and Objects"/> </p>
+<img src="https://cdn.discordapp.com/attachments/1217825406699180052/1240391076007641159/python_classes.jpg?ex=664663b5&is=66451235&hm=5d226da3f45aca2e3fa20abe3ef7fa18e1d680cbc87c77c3f1c4e2bfae42e8c7&"  alt="Python - Classes and Objects"/> </p>
 
 <p>
 
@@ -34,8 +34,102 @@ Python Scripts:
 ```
 
 ## ➤ EXAMPLES
+Create an instance of Square :
 ```
-IN PROGRESS
+# Création d'une instance de Square avec la taille par défaut
+square_default = Square()
+
+# Création d'une instance de Square avec une taille spécifiée
+square_custom = Square(5)
+
+```
+Utilisation des propriétés size:
+```
+# Récupérer la taille du carré
+print(square_custom.size)  # Output: 5
+
+# Définir une nouvelle taille pour le carré
+square_custom.size = 7
+print(square_custom.size)  # Output: 7
+
+# Essayer de définir une taille non valide
+try:
+    square_custom.size = -3
+except ValueError as e:
+    print(e)  # Output: size must be >= 0
+
+try:
+    square_custom.size = "ten"
+except TypeError as e:
+    print(e)  # Output: size must be a number
+```
+Calculer l'aire du carré :
+```
+# Calculer l'aire d'un carré
+print(square_custom.area())  # Output: 49
+
+```
+Classe Square:
+```
+class Square:
+    """A class that defines a square."""
+
+    def __init__(self, size=0):
+        """Initialize the square with a given size."""
+        self.size = size
+
+    @property
+    def size(self):
+        """Retrieve the size of the square."""
+        return self.__size
+
+    @size.setter
+    def size(self, value):
+        """Set the size of the square."""
+        if not isinstance(value, (int, float)):
+            raise TypeError("size must be a number")
+        if value < 0:
+            raise ValueError("size must be >= 0")
+        self.__size = value
+
+    def area(self):
+        """Return the current square area."""
+        return self.__size ** 2
+
+    def __eq__(self, other):
+        """Compare equality based on area."""
+        if isinstance(other, Square):
+            return self.area() == other.area()
+        return False
+
+    def __ne__(self, other):
+        """Compare inequality based on area."""
+        return not self.__eq__(other)
+
+    def __gt__(self, other):
+        """Compare greater than based on area."""
+        if isinstance(other, Square):
+            return self.area() > other.area()
+        return False
+
+    def __ge__(self, other):
+        """Compare greater than or equal based on area."""
+        if isinstance(other, Square):
+            return self.area() >= other.area()
+        return False
+
+    def __lt__(self, other):
+        """Compare less than based on area."""
+        if isinstance(other, Square):
+            return self.area() < other.area()
+        return False
+
+    def __le__(self, other):
+        """Compare less than or equal based on area."""
+        if isinstance(other, Square):
+            return self.area() <= other.area()
+        return False
+
 ```
 
 ## ➤ TUTORIALS
