@@ -43,7 +43,7 @@ square_default = Square()
 square_custom = Square(5)
 
 ```
-Utilisation des propriétés size:
+Using size properties:
 ```
 # Récupérer la taille du carré
 print(square_custom.size)  # Output: 5
@@ -63,7 +63,7 @@ try:
 except TypeError as e:
     print(e)  # Output: size must be a number
 ```
-Calculer l'aire du carré :
+Calculate the area of the square:
 ```
 # Calculer l'aire d'un carré
 print(square_custom.area())  # Output: 49
