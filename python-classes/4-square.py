@@ -5,6 +5,7 @@ A class used to represent a Square
 
 
 class Square:
+    """Square class that define a square with is self size"""
     def __init__(self, size=0):
         self.size = size
     """Initialize the square with a given size"""
