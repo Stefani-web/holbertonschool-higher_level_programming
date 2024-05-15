@@ -2,7 +2,7 @@
 # <p align="center">Python - More Data Structures: Set, Dictionary</p>
 
 <p align="center">
-<img src="https://cdn.discordapp.com/attachments/1217825406699180052/1239621554762158100/More_Data_Structures_Set_Dictionary.jpg?ex=66439709&is=66424589&hm=aaae1eea6c0d6d57023ae47a69424d90c16d6d143c5b13cf4db066d222ca0ab2&"  alt="Python - Set, Dictionary"/> </p>
+<img src="https://cdn.discordapp.com/attachments/1217825406699180052/1240391008500449422/pyhton_more_data_struct.jpg?ex=664663a5&is=66451225&hm=913190e25160948aff928dcb712f1dbad5548963765ab7686ba5b245f99758d0&"  alt="Python - Set, Dictionary"/> </p>
 
 <p>
 
@@ -35,8 +35,94 @@ Python Scripts:
 ```
 
 ## ➤ EXAMPLES
+
+**1. Using Sets**
+
+**a.** Creation and Manipulation of a Set
 ```
-IN PROGRESS
+# Création d'un ensemble
+my_set = {1, 2, 3, 4, 5}
+
+# Ajout d'éléments à un ensemble
+my_set.add(6)
+
+# Suppression d'un élément d'un ensemble
+my_set.remove(3)
+
+# Parcours des éléments d'un ensemble
+for item in my_set:
+    print(item)
+
+# Vérification d'appartenance d'un élément à un ensemble
+if 4 in my_set:
+    print("4 appartient à l'ensemble.")
+
+```
+**b.** Operations on Sets
+```
+set1 = {1, 2, 3, 4, 5}
+set2 = {4, 5, 6, 7, 8}
+
+# Union
+union_set = set1.union(set2)
+
+# Intersection
+intersection_set = set1.intersection(set2)
+
+# Différence
+difference_set = set1.difference(set2)
+
+# Vérifier si un ensemble est un sous-ensemble d'un autre
+is_subset = set1.issubset(set2)
+
+```
+**2. Use of dictionaries**
+
+**a.** Creating and Manipulating a Dictionary
+```
+# Création d'un dictionnaire
+my_dict = {"nom": "Alice", "âge": 30, "ville": "Paris"}
+
+# Accéder aux valeurs d'un dictionnaire
+print(my_dict["nom"])  # Output: Alice
+
+# Modifier une valeur dans un dictionnaire
+my_dict["âge"] = 25
+
+# Ajouter un nouvel élément au dictionnaire
+my_dict["email"] = "alice@example.com"
+
+# Supprimer un élément du dictionnaire
+del my_dict["ville"]
+
+```
+**b.** Navigating the Keys and Values of a Dictionary
+```
+# Parcourir les clés d'un dictionnaire
+for key in my_dict:
+    print(key)
+
+# Parcourir les valeurs d'un dictionnaire
+for value in my_dict.values():
+    print(value)
+
+# Parcourir à la fois les clés et les valeurs
+for key, value in my_dict.items():
+    print(key, ":", value)
+
+```
+**c.** Useful Dictionary Methods
+```
+# Vérifier si une clé existe dans un dictionnaire
+if "nom" in my_dict:
+    print("La clé 'nom' existe dans le dictionnaire.")
+
+# Obtenir la longueur d'un dictionnaire (nombre de paires clé-valeur)
+dict_length = len(my_dict)
+
+# Copier un dictionnaire
+copy_dict = my_dict.copy()
+
 ```
 
 ## ➤ TUTORIALS
