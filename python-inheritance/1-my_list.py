@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""a class MyList that inherits"""
+"""A class MyList that inherits"""
 
 
 class MyList(list):
