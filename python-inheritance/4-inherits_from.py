@@ -4,12 +4,15 @@
 
 def inherits_from(obj, a_class):
     """
-    Returns a list of strings indicating whether the object is an instance
-    of a class that inherited (directly or indirectly)
-    from the specified class
+    Returns True if the object is an instance of a class that inherited
+    (directly or indirectly) from the specified class;
+    otherwise False.
     """
-    result = []
-    for cls in type(obj).__mro__[1:]:
-        if issubclass(cls, a_class):
-            result.append(f"True inherited from class {cls.__name__}")
-    return result
+    if isinstance(obj, bool):
+        return False
+    elif issubclass(type(obj), a_class):
+        print(f"True inherited from class {a_class.__name__}")
+        return True
+    else:
+        print("False")
+        return False
