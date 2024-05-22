@@ -1,18 +1,18 @@
 #!/usr/bin/python3
-"""This module contains the `inherits_from` function"""
+"""This module contains the "inherits_from" function"""
 
 
 def inherits_from(obj, a_class):
     """
-    Returns True if the object is an instance of a class that inherited
-    (directly or indirectly) from the specified class;
-    otherwise False.
-    """
-    if isinstance(obj, bool):
-        return False
-    elif issubclass(type(obj), a_class):
-        print(f"True inherited from class {a_class.__name__}")
-        return True
-    else:
-        print("False")
-        return False
+     Checks if an object is an instance of a class that has inherited
+     (directly or indirectly) of the specified class
+
+     Args:
+         obj: The object to check
+         a_class: The class to check
+
+     Returns:
+         True if `obj` is an instance of a class that inherited from `a_class`,
+         otherwise False
+     """
+    return isinstance(obj, a_class) and type(obj) is not a_class
