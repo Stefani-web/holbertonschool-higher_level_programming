@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" This module to define a function that prints a full name"""
+"""Module to define a function that prints a full name"""
 
 
 def say_my_name(first_name, last_name=""):
@@ -13,8 +13,7 @@ def say_my_name(first_name, last_name=""):
 
     Raises:
         TypeError: If the first name or the last name are not strings
-
-    Returns : None"""
+    """
 
     if type(first_name) is not str:
         raise TypeError("first_name must be a string")
