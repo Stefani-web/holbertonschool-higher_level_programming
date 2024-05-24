@@ -6,8 +6,9 @@ class MyList(list):
     """Class inheriting from the list"""
 
     def print_sorted(self):
-
-        """Displays the list sorted in ascending order"""
-
-        sorted_list = sorted(self)
-        print(sorted_list)
+        """
+        prints list in ascending sort
+        """
+        sort_list = super().copy()
+        sort_list.sort()
+        print(sort_list)
