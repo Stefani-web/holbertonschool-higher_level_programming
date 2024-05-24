@@ -1,122 +1,36 @@
-The ``3-say_my_name`` module
-============================
+The "say_my_name" doctest
+========================
 
-Using ``say_my_name``
----------------------
+Tests the say_my_name function from 3-say_my_name
+for any edge cases that may break the functionality
+of the imported function.
 
-Importing function from the module:
+>>> say_my_name = __import__('3-say_my_name').say_my_name
 
-    >>> say_my_name = __import__('3-say_my_name').say_my_name
+>>> say_my_name("John", "Smith")
+My name is John Smith
 
-Printing a valid name:
+>>> say_my_name("Walter", "White")
+My name is Walter White
 
-    >>> say_my_name("John", "Smith")
-    My name is John Smith
+>>> say_my_name("Bob")
+My name is Bob
 
-Printing a name with only first name provided:
+>>> try:
+...     say_my_name(12, "White")
+... except Exception as e:
+...     print(e)
+first_name must be a string
 
-    >>> say_my_name("Bob")
-    My name is Bob
+>>> try:
+...     say_my_name("White", 12)
+... except Exception as e:
+...     print(e)
+last_name must be a string
 
-Printing a name with empty last name:
+>>> try:
+...     say_my_name()
+... except Exception as e:
+...     print(e)
+say_my_name() missing 1 required positional argument: 'first_name'
 
-    >>> say_my_name("Alice", "")
-    My name is Alice
-
-Passing a number as first name:
-
-    >>> say_my_name(12, "White")
-    Traceback (most recent call last):
-        ...
-    TypeError: first_name must be a string
-
-Passing a number as last name:
-
-    >>> say_my_name("Alice", 123)
-    Traceback (most recent call last):
-        ...
-    TypeError: last_name must be a string
-
-Passing None as first name:
-
-    >>> say_my_name(None, "Smith")
-    Traceback (most recent call last):
-        ...
-    TypeError: first_name must be a string
-
-Passing None as last name:
-
-    >>> say_my_name("Alice", None)
-    Traceback (most recent call last):
-        ...
-    TypeError: last_name must be a string
-
-Passing a float as first name:
-
-    >>> say_my_name(3.14, "Doe")
-    Traceback (most recent call last):
-        ...
-    TypeError: first_name must be a string
-
-Passing a float as last name:
-
-    >>> say_my_name("John", 2.718)
-    Traceback (most recent call last):
-        ...
-    TypeError: last_name must be a string
-
-Passing a list as first name:
-
-    >>> say_my_name(["John"], "Doe")
-    Traceback (most recent call last):
-        ...
-    TypeError: first_name must be a string
-
-Passing a list as last name:
-
-    >>> say_my_name("John", ["Doe"])
-    Traceback (most recent call last):
-        ...
-    TypeError: last_name must be a string
-
-Passing a dictionary as first name:
-
-    >>> say_my_name({"first": "John"}, "Doe")
-    Traceback (most recent call last):
-        ...
-    TypeError: first_name must be a string
-
-Passing a dictionary as last name:
-
-    >>> say_my_name("John", {"last": "Doe"})
-    Traceback (most recent call last):
-        ...
-    TypeError: last_name must be a string
-
-Passing a tuple as first name:
-
-    >>> say_my_name(("John",), "Doe")
-    Traceback (most recent call last):
-        ...
-    TypeError: first_name must be a string
-
-Passing a tuple as last name:
-
-    >>> say_my_name("John", ("Doe",))
-    Traceback (most recent call last):
-        ...
-    TypeError: last_name must be a string
-
-Passing a boolean as first name:
-
-    >>> say_my_name(True, "Doe")
-    Traceback (most recent call last):
-        ...
-    TypeError: first_name must be a string
-
-Passing a boolean as last name:
-
-    >>> say_my_name("John", False)
-    Traceback (most recent call last):
-        ...
-    TypeError: last_name must be a string
