@@ -6,6 +6,7 @@ Rectangle = __import__('9-rectangle').Rectangle
 
 class Square(Rectangle):
     """This class represents a square"""
+
     def __init__(self, size):
         """
         Initializes a new instance of the Square class.
@@ -21,3 +22,9 @@ class Square(Rectangle):
         Returns the area of the square.
         """
         return self.__size ** 2
+
+    def __str__(self):
+        """
+        Retourne description du carré sous la forme [Rectangle] <size>/<size>.
+        """
+        return "[Rectangle] {}/{}".format(self.__size, self.__size)
