@@ -7,19 +7,26 @@ class VerboseList(list):
 
     def append(self, item):
         super().append(item)
-        print(f"Added {item} to the list.")
+        print("Added [{}] to the list.".format(item))
 
-    def extend(self, items):
-        super().extend(items)
-        print(f"Extended the list with {len(items)} items.")
+    def extend(self, iterable):
+        super().extend(iterable)
+        print("Extended the list with [{}] items.".format(len(iterable)))
 
     def remove(self, item):
-        super().remove(item)
-        print(f"Removed {item} from the list.")
-
-    def pop(self, index=None):
-        if index is not None:
-            item = super().pop(index)
+        if item in self:
+            print("Removed [{}] from the list.".format(item))
+            super().remove(item)
         else:
-            item = super().pop()
-        print(f"Popped {item} from the list.")
+            print(
+                "Attempted to remove [{}], but it was not found in the list."
+                .format(item))
+
+    def pop(self, index=-1):
+        try:
+            item = self[index]
+            super().pop(index)
+            print("Popped [{}] from the list.".format(item))
+        except IndexError:
+            print("Attempted to pop index [{}], but it was out of range."
+                  .format(index))
