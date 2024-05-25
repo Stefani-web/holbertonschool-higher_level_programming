@@ -5,15 +5,15 @@ from abc import ABC, abstractmethod
 class Animal(ABC):
     @abstractmethod
     def sound(self):
-        """Produce the sound of the animal."""
+        '''Produce the sound of the animal.'''
         pass
 
 
 class Dog(Animal):
     def sound(self):
-        return "Bark"
+        return '''Bark'''
 
 
 class Cat(Animal):
     def sound(self):
-        return "Meow"
+        return '''Meow'''
