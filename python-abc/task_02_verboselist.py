@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 class VerboseList(list):
     def append(self, item):
         super().append(item)
