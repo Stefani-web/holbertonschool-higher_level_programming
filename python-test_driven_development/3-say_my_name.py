@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-This module defines a function that prints a name
+This module defines a function that prints a name.
 """
 
 
@@ -11,6 +11,9 @@ def say_my_name(first_name, last_name=""):
     Args:
         first_name: string with the first name
         last_name: string with the last name
+
+    Returns:
+        None
 
     Raises:
         TypeError: If first_name is not a string
