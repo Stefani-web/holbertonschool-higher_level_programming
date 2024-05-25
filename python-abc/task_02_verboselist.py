@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
-
 class VerboseList(list):
-
-    """A custom list class that prints a notification
-    message every time an item"""
-
     def append(self, item):
         super().append(item)
         print("Added [{}] to the list.".format(item))
