@@ -38,3 +38,10 @@ class Rectangle(Shape):
 def shape_info(shape):
     print("Area: {}".format(shape.area()))
     print("Perimeter: {}".format(shape.perimeter()))
+
+# Test the shape_info function with instances of both Circle and Rectangle
+c = Circle(5)
+shape_info(c)
+
+r = Rectangle(4, 6)
+shape_info(r)
