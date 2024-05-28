@@ -1,17 +1,17 @@
 #!/usr/bin/python3
 
-'''This module task 13'''
+'''A function that inserts a line of text into a file,
+after each line containing a specific string'''
 
 
 def append_after(filename="", search_string="", new_string=""):
-
-    '''Inserts `new_string` after each line containing `search_string`
-    in the specified file.
+    '''Insert `new_string` after each line containing
+    `search_string`in the specified file.
 
     Args:
     filename (str): The name of the file.
     search_string (str): The string to search for in each line.
-    new_string (str): The string to insert after each occurrence of
+    new_string(str): The string to insert after each occurrence of
     `search_string`.
 
     Returns: None
@@ -24,7 +24,7 @@ def append_after(filename="", search_string="", new_string=""):
             for line in lines:
                 file.write(line)
                 if search_string in line:
-                    file.write(new_string + '\n')
+                    file.write(new_string)
     except FileNotFoundError:
         print(f"File '{filename}' not found.")
     except Exception as e:
