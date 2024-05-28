@@ -32,10 +32,5 @@ def load_and_deserialize(filename):
     dict: A Python dictionary with the deserialized JSON data from the file.
     '''
 
-    try:
-        with open(filename, 'r') as json_file:
-            loaded_data = json.load(json_file)
-        return loaded_data
-    except Exception as e:
-        print(f"Error loading data from {filename}: {e}")
-        return None
+    with open(filename, 'r', encoding='utf-8') as file:
+        return json.load(file)
