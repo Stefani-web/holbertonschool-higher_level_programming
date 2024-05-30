@@ -11,31 +11,35 @@ class SimpleAPIHandler(BaseHTTPRequestHandler):
     '''Class that inherits from BaseHTTPRequestHandler
     to handle HTTP requests.'''
 
-    def do_GET(self):
-        '''
-        Handles GET requests to our API.
-        Returns a simple text response for the root endpoint,
-        a JSON response for the /data endpoint, and a 404 error
-        for any other undefined endpoint.
-        '''
-        if self.path == '/':
-            self.send_response(200)
-            self.send_header('Content-type', 'text/plain')
-            self.end_headers()
-            self.wfile.write(b'Hello, this is a simple API!')
-        elif self.path == '/data':
-            data = {"name": "John", "age": 30, "city": "New York"}
-            self.send_response(200)
-            self.send_header('Content-type', 'application/json')
-            self.end_headers()
-            self.wfile.write(json.dumps(data).encode())
-        elif self.path == '/status':
-            self.send_response(200)
-            self.send_header('Content-type', 'text/plain')
-            self.end_headers()
-            self.wfile.write(b'OK')
-        else:
-            self.send_error(404, 'not found')
+
+def do_GET(self):
+    '''
+    Handles GET requests to our API.
+    Returns a simple text response for the root endpoint,
+    a JSON response for the /data endpoint, and a 404 error
+    for any other undefined endpoint.
+    '''
+    if self.path == '/':
+        self.send_response(200)
+        self.send_header('Content-type', 'text/plain')
+        self.end_headers()
+        self.wfile.write(b'Hello, this is a simple API!')
+    elif self.path == '/data':
+        data = {"name": "John", "age": 30, "city": "New York"}
+        self.send_response(200)
+        self.send_header('Content-type', 'application/json')
+        self.end_headers()
+        self.wfile.write(json.dumps(data).encode())
+    elif self.path == '/status':
+        self.send_response(200)
+        self.send_header('Content-type', 'text/plain')
+        self.end_headers()
+        self.wfile.write(b'OK')
+    else:
+        self.send_response(404)
+        self.send_header('Content-type', 'text/plain')
+        self.end_headers()
+        self.wfile.write(b'Endpoint not found')
 
 
 def run(server_class=HTTPServer, handler_class=SimpleAPIHandler, port=8000):
