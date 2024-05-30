@@ -35,7 +35,7 @@ class SimpleAPIHandler(BaseHTTPRequestHandler):
             self.end_headers()
             self.wfile.write(b'OK')
         else:
-            self.send_error(404, 'Endpoint not found')
+            self.send_error(404, 'not found')
 
 
 def run(server_class=HTTPServer, handler_class=SimpleAPIHandler, port=8000):
