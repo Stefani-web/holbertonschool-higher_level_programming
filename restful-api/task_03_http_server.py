@@ -7,41 +7,49 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 import json
 
 
-class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
-    '''A simple HTTP server that handles GET requests and serves JSON data.'''
+class SimpleAPIHandler(BaseHTTPRequestHandler):
+    '''Class that inherits from BaseHTTPRequestHandler
+    to handle HTTP requests.'''
 
     def do_GET(self):
-
-        '''Respond to a GET request by serving JSON data for specific endpoints
-        or a simple text greeting. Undefined endpoints return a 404 error.'''
-
-        # Define the header for content-type as JSON
-        self.send_response(200)
-        self.send_header('Content-type', 'application/json')
-        self.end_headers()
-
-        # Check the endpoint and provide the appropriate response
+        '''
+        Handles GET requests to our API.
+        Returns a simple text response for the root endpoint,
+        a JSON response for the /data endpoint, and a 404 error
+        for any other undefined endpoint.
+        '''
         if self.path == '/':
-            self.wfile.write(b"Hello, this is a simple API!")
+            self.send_response(200)
+            self.send_header('Content-type', 'text/plain')
+            self.end_headers()
+            self.wfile.write(b'Hello, this is a simple API!')
         elif self.path == '/data':
-            # Serve the JSON data
             data = {"name": "John", "age": 30, "city": "New York"}
+            self.send_response(200)
+            self.send_header('Content-type', 'application/json')
+            self.end_headers()
             self.wfile.write(json.dumps(data).encode())
         elif self.path == '/status':
-            # Serve the status endpoint
-            status = {"status": "OK"}
-            self.wfile.write(json.dumps(status).encode())
+            self.send_response(200)
+            self.send_header('Content-type', 'text/plain')
+            self.end_headers()
+            self.wfile.write(b'OK')
         else:
-            # Handle undefined endpoints
-            self.send_error(404, "Endpoint not found")
+            self.send_error(404, 'Endpoint not found')
 
 
-def run(server_class=HTTPServer, handler_class=SimpleHTTPRequestHandler,
-        port=8000):
-    '''Run the HTTP server on a specified port.'''
+def run(server_class=HTTPServer, handler_class=SimpleAPIHandler, port=8000):
+    '''
+    Starts a simple HTTP server with the given port number.
+
+    Args:
+    server_class: The HTTP server class to use (default HTTPServer).
+    handler_class: The HTTP request handler class to use (default MyServer).
+    port: The port number to use (default 8000).
+    '''
     server_address = ('', port)
     httpd = server_class(server_address, handler_class)
-    print(f"Starting httpd server on port {port}")
+    print(f'Starting httpd on port {port}...')
     httpd.serve_forever()
 
 
