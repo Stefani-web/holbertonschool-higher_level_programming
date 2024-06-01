@@ -49,10 +49,10 @@ Python Scripts:
 
 ## ➤ LICENSE
 
-Distributed under the MIT License. See [LICENSE](https://github.com/Stefani-web/holbertonschool-higher_level_programming/blob/main/python-serialization/LICENCE) for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/Stefani-web/holbertonschool-higher_level_programming/blob/main/python-input_output/LICENSE) for more information.
 
 Copyright (c) 2024 Stephanie CARVALHO
 
-## ➤ [AUTHORS](https://github.com/Stefani-web/holbertonschool-higher_level_programming/blob/main/python-serialization/AUTHORS)
+## ➤ [AUTHORS](https://github.com/Stefani-web/holbertonschool-higher_level_programming/blob/main/python-input_output/AUTHORS)
 
 * [Stephanie Carvalho](https://github.com/Stefani-web)
