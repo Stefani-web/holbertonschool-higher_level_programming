@@ -17,8 +17,17 @@ The print() function is used to display information to the user. You can format 
 
 f-strings allow you to include Python expressions directly in strings using {} for interpolation.
 The str.format() method offers an alternative where you can explicitly set the formatting of the variables to be displayed.
+
 Here is a simple example of code using input() and print() with an f-string:
 
+```
+# Asks the user to enter their name
+username = input("Enter your name: ")
+
+# Displays a custom welcome message
+print(f"Hello {username}! Welcome to the world of Python.")
+
+```
 </p>
 
 <p align="center">
