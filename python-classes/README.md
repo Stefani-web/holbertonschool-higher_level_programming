@@ -1,7 +1,7 @@
 # <p align="center">Python - Classes and Objects</p>
 
 <p align="center">
-<img src="https://cdn.discordapp.com/attachments/1217825406699180052/1240391076007641159/python_classes.jpg?ex=664663b5&is=66451235&hm=5d226da3f45aca2e3fa20abe3ef7fa18e1d680cbc87c77c3f1c4e2bfae42e8c7&"  alt="Python - Classes and Objects"/> </p>
+<img src=""  alt="Python - Classes and Objects"/> </p>
 
 <p>
 
