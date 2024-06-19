@@ -36,6 +36,16 @@ Python Scripts:
 - [python-more_data_structures](https://github.com/Stefani-web/holbertonschool-higher_level_programming/tree/main/python-more_data_structures)
 - [python-exceptions](https://github.com/Stefani-web/holbertonschool-higher_level_programming/tree/main/python-exceptions)
 - [python-classes](https://github.com/Stefani-web/holbertonschool-higher_level_programming/tree/main/python-classes)
+- [python-abc](https://github.com/Stefani-web/holbertonschool-higher_level_programming/tree/main/python-abc)
+- [python-more_classes](https://github.com/Stefani-web/holbertonschool-higher_level_programming/tree/main/python-more_classes)
+- [python-input_output](https://github.com/Stefani-web/holbertonschool-higher_level_programming/tree/main/python-input_output)
+- [python-inheritance](https://github.com/Stefani-web/holbertonschool-higher_level_programming/tree/main/python-inheritance)
+- [python-serialization](https://github.com/Stefani-web/holbertonschool-higher_level_programming/tree/main/python-serialization)
+- [python-test_driven_development](https://github.com/Stefani-web/holbertonschool-higher_level_programming/tree/main/python-test_driven_development)
+- [devops_essentials](https://github.com/Stefani-web/holbertonschool-higher_level_programming/tree/main/devops_essentials)
+- [restful-api](https://github.com/Stefani-web/holbertonschool-higher_level_programming/tree/main/restful-api)
+- [SQL_introduction](https://github.com/Stefani-web/holbertonschool-higher_level_programming/tree/main/SQL_introduction)
+- [SQL_more_queries](https://github.com/Stefani-web/holbertonschool-higher_level_programming/tree/main/SQL_more_queries)
 
 ## ➤ LICENSE
 
