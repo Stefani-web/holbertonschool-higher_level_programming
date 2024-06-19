@@ -1,2 +1,3 @@
 -- List all the values in the table first_table
-SELECT * FROM first_table;
+INSERT INTO first_table (id, name)
+VALUES (89, 'Best School');
