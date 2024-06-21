@@ -1,10 +1,6 @@
--- lists all the cities in the database hbtn_0d_usa
--- Each record should display: cities.id - cities.name - states.name
--- results must be sorted in ascending order by cities.id
--- can use only one SELECT statement
--- the database name will be passed as an argument of the mysql command
+-- List all cities contained in the database hbtn_0e_4_usa
+-- by join between the cities and states tables
 
-SELECT cities.id, cities.name, states.name FROM cities
-JOIN states
-WHERE cities.state_id = states.id
-ORDER BY cities.id ASCii;
+SELECT cities.id, cities.name, states.name
+FROM cities JOIN states ON cities.state_id = states.id
+ORDER BY cities.id ASC;
